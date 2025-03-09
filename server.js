@@ -17,7 +17,7 @@ app.post('/finance-chat', async (req, res) => {
     return res.status(400).json({ error: "Please provide a message." });
   }
 
-  const apiKey = "AIzaSyBp0KRp6RDGgbJvXrD4BVNJJyXGXYvriyY";
+  const apiKey = `your api key bitch`;
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
 
   const data = {
